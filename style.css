@@ -3,17 +3,17 @@ body {
   min-height: 500vh;
   background-color: black;
 }
-/* width */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
   background: rgb(198 198 198 / 80%);
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: #555;
   border-radius: 100px;
