@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  min-height: 500vh;
+  background-color: black;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(198 198 198 / 80%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 100px;
+}
+
+#progress {
+  height: 10px;
+  background-color: red;
+  position: sticky;
+  top: 0;
+  width: 0%;
+  transition: width 0.3s;
+}
