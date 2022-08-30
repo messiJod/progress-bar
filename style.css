@@ -20,7 +20,7 @@ body {
 }
 
 #progress {
-  height: 10px;
+  height: 4px;
   background-color: red;
   position: sticky;
   top: 0;
